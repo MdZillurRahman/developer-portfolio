@@ -1,23 +1,30 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    margin-bottom: 100px;
 }
 h1{
     font-size: 50px;
+}
+p{
+   padding: 10px;
 }
 span{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
-.first-div{
+.half-width{
     width: 50%;
     padding-left: 2%;
     text-align: justify;
 }
-.second-div{
+.half-width img{
     width: 50%;
+    padding-left: 100px;
+    margin-top: 100px;
 }
 .hire-me{
     text-decoration: none;
@@ -26,28 +33,15 @@ section{
     color: white;
     font-weight: 750;
     border-radius: 5px;
+   
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .dream-big{
-    margin-top: 100px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 75%;
-    background-size: 1.3cm;
+    background-position: right;
 }
-.download-resume{
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
-    color: white;
-    font-weight: 750;
-    border-radius: 5px;
-}
-.third-div{
-    width: 50%;
-    padding-left: 150px;
-}
+
